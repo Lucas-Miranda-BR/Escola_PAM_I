@@ -1,0 +1,8 @@
+.bg-custom {
+    background: rgb(49,16,64);
+    background: linear-gradient(90deg, rgba(49,16,64,1) 35%, rgba(19,16,38,1) 43%, rgba(215,199,217,1) 100%);
+}
+.navbar-brand,
+.nav-link {
+    color: white
+}
