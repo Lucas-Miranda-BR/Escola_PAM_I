@@ -20,5 +20,5 @@
     color: var(--primary-color);
 }
 body{
-    background-color: var(--secondary-color);
+    background-color: var(--light-color);
 }
