@@ -5,7 +5,7 @@ let horas = 0;
 let timer = document.createElement('h1');
 timer.style.fontSize = "48px"
 timer.style.fontFamily = "Indie Flower"
-timer.style.color = "#000000"
+timer.style.color = "#FFB6C1"
 
 setInterval(() => {
     segundos++
@@ -24,3 +24,4 @@ setInterval(() => {
 }, 1000);
 
 document.querySelector("body").appendChild(timer);
+
