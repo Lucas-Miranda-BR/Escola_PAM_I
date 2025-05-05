@@ -8,7 +8,38 @@
 </head>
 <body>
     <script>
+        personagem = []
+        personagem['nome'] = ['Superman', 'Batman', 'Aquaman'];
+        personagem['idade'] = [31, 25, 38];
+        personagem['peso'] = ['102 kg', '95 kg', '147 kg'];
+        personagem['poder'] = ['Multiplos poderes', 'Rico', 'Falar com os peixes'];
+        personagem['profissao'] = ['Jornalista', 'Empressario bilionario', 'Rei da Atlãntida'];
+        personagem['foto'] = ["<img src='https://cdn.ome.lt/XaG9HSpvF-NFYYbCLieZAreRMjM=/1200x630/smart/extras/conteudos/supermanvariante_ep1bUK6.jpg'>", "<img src='https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/01/batman-robert-pattinson-2022.jpg?w=1200&h=1200&crop=1'>", "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROGK0-fYcNNZ6NlwUycr-A9074Qc0hBmbwRQ&s'>"];
         
+        for (let i = 0; i < 3; i++) {
+
+        var addNome = prompt("Digite o nome de um personagem: ");
+        var addIdade = prompt("Digite a idade de um personagem: ");
+        var addPeso = prompt("Digite o peso de um personagem: ");
+        var addPoder = prompt("Digite o poder de um personagem: ");
+        var addProfissao = prompt("Digite a profissão de um personagem: ");
+        var addFoto = prompt("Insira um link da imagem de um personagem: ");
+
+        personagem['nome'].push(addNome);
+        personagem['idade'].push(addIdade);
+        personagem['peso'].push(addPeso);
+        personagem['poder'].push(addPoder);
+        personagem['profissao'].push(addProfissao);
+        personagem['foto'].push(`<img src='${addFoto}'>`);
+            
+        };
+
+        personagem.splice(2,2);
+
+        personagem.forEach(nome, idade, peso, poder, profissao, foto) {
+            
+        };
+    
     </script>
 </body>
 </html>

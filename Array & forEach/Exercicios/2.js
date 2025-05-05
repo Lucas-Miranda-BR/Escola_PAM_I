@@ -2,5 +2,5 @@ let array = [10, 20, 30];
 
 array.forEach(element => {
     array.pop();
-    console.log(array);
+    console.log(element);
 });
