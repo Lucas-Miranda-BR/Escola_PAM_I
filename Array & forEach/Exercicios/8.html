@@ -8,22 +8,30 @@
 </head>
 <body>
     <script>
-        var escola = []
-        escola['professor'] = ['Roberto', 'Carlos'];
-        escola['materia'] = ['Tecnologia da Informação', 'Adminstração de Automoveis'];
-        escola['aluno'] = ['Pedro', 'João'];
+        var escola = [
+            {
+                professor: "Roberto",
+                materia: "TI",
+                aluno: "Pedro"
+
+            },
+            {
+                professor: "Carlos",
+                materia: "ADM",
+                aluno: "João"
+            }
+        ]
 
         var addProf = prompt("Digite o nome de um professor: ");
-        escola['professor'].push(addProf);
-
         var addMateria = prompt("Digite o nome de uma materia: ");
-        escola['materia'].push(addMateria);
-
         var addAluno = prompt("Digite o nome de um aluno: ");
-        escola['aluno'].push(addAluno);
 
-        escola.forEach(element => {
-            console.log(element)
+        escola.push({professor:addProf, materia:addMateria, aluno:addAluno});
+
+        escola.forEach(coisas => {
+            console.log(coisas.professor);
+            console.log(coisas.materia);
+            console.log(coisas.aluno);
         });
         
     </script>

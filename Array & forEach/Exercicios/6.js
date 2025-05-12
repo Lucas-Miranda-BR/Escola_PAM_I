@@ -12,6 +12,6 @@ function ordenarNumeros(a, b){
 	return a - b
 }
 
-array.forEach(ordenarNumeros => {
-    console.log(array.sort(ordenarNumeros));
+array.forEach(ordenar => {
+    console.log(ordenar);
 });
