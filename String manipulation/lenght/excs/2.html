@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEXC2</title>
+</head>
+<body>
+    <script>
+        let password = prompt('Digite uma palavra: ');
+        password = password.length;
+        if (password <= 5) {
+            console.log("Poucas caracteres.")
+        }
+        else if (password > 5 && password <= 10) {
+            console.log("Boa quantidade de caracteres.")
+        }
+        else if (password > 10) {
+            console.log("Inúmeros caracteres encontrados.")
+        }
+        else {
+            console.log("Error")
+        }
+    </script>
+</body>
+</html>

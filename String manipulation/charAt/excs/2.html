@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEXC2</title>
+</head>
+<body>
+    <script>
+        let counter = 0;
+        let word = prompt("Digite uma palavra.");
+        let letter = prompt("Digite uma letra qualquer.");
+        letter = letter.toLowerCase();
+        word = word.toLowerCase();
+
+        for (let i = 0; i < word.length; i++) {
+            if (word.charAt(i) == word) {
+                counter++
+            }
+        }
+
+        console.log(`Na palavra: ${word} existe ${counter} occorencias da letra: ${letter}`);
+    </script>
+</body>
+</html>
