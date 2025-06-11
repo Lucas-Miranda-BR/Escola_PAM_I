@@ -3,28 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LEXC3</title>
+    <title>Length EXC3</title>
 </head>
 <body>
     <script>
         var addName = prompt("Digite seu primeiro nome.");
-        var addSurame = prompt("Digite seu sobrenome.");
+        var addSurname = prompt("Digite seu sobrenome.");
         var personList = [
             {
                 name: "Nome",
                 surname: "Sobrenome",
-                fullName: "Nome Sobrenome"
 
             }
         ];
         
-        if (name.lenght >= 3 && surname.lenght >= 3) {
-            personList.push({name:name, surname})
+        if (name.length >= 3 && surname.length >= 3) {
+            personList.push({name:name, surname:surname})
         }
         
-        personList.push({name:addName, addSurname:addSurname});
         personList.forEach(person => {
-    console.log(`Nome: ${person.name} - Sobrenome: ${person.surname}`);
+    console.log(`Nome: ${person.name} - Sobrenome: ${person.surname} - Nome Completo: ${person.name} ${person.surname}`);
 });
     </script>
 </body>

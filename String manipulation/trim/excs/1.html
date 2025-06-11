@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trim EXC1</title>
+</head>
+<body>
+    <script>
+        let word = prompt("Digite uma palavra qualquer: ");
+        if (word.length > word.trim().length) {
+            console.log(`A palavra digitada: ${word} não é permitida. Pois possui espaços no início ou no final da palavra.`);
+        }
+        else {
+            console.log(`A palavra digitada: ${word} é permitida. Pois não possui espaços no início ou no final da palavra.`);
+        }
+    </script>
+</body>
+</html>
