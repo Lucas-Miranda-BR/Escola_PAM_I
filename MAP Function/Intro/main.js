@@ -4,8 +4,8 @@ let map = new Map();
 
 // Definindo chaves de um Map
 
-map.set("name", "Ann");
-map.set("age", 22);
+map.set("name", "Itsuni");
+map.set("age", 19);
 map.set("isAdult", true);
 map.set("wage", 1875.35);
 
